@@ -1,0 +1,417 @@
+// home scss start
+
+// topbar start
+.topbar{
+    background-color:$primary;
+    height: 54px;
+    color:$white;
+    h6{
+       margin-top: 15px;
+       margin-right: 15px;
+       transition: all 0.5s;
+       &:hover{
+        color:$black;
+       }
+    }
+    i{
+        margin-top: 10px;
+        margin-right: 15px;
+        transition: all 0.5s;
+        &:hover{
+            color:$black;
+        }
+    }
+}
+// topbar end
+
+// header and hero banner start
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .overlay{
+        background-color:rgba(0, 0, 0,0.6);
+        padding-bottom: 150px;
+        p{
+            color:$white;
+        }
+        .home{
+            h3{
+                padding-top: 100px;
+            }
+            p{
+                padding: 10px 0;
+            }
+        }
+    }
+   
+  
+}
+header{
+    ul{
+        button{
+            background-color:$primary !important;
+            &:hover{
+                background-color:transparent !important;
+            }
+        }
+        .active{
+            color:$primary !important;
+        }
+        li{
+            &:hover a{
+                color:$primary !important;
+            }
+            a{
+                color:$white !important;
+               
+            }
+        }
+       }
+}
+// header and hero banner end
+
+// some common classes
+.main-heading{
+    font-size: 40px;
+    color:$primary;
+    span{
+        color: $black;
+        font-size: 40px;
+    }
+}
+.sub-heading{
+    font-size: $fs-24;
+    color:$black;
+    position: relative;
+    padding-left: 80px;
+    &::after{
+        position: absolute;
+        content: "";
+        background-color:$primary;
+        width: 70px;
+        height: 2px;
+        top:50%;
+        left:0px;
+       
+    }
+}
+.overlay{
+    background-color:rgba(0, 0, 0,0.6);
+    padding-bottom: 150px;
+}
+p{
+    color:$p;
+}
+.btn{
+    transition: all 0.5s;
+    color:$white !important;
+    &:hover{
+        background-color:transparent !important;
+        border:1px solid $primary !important;
+        color:$primary !important;
+    }
+}
+.common-btn{
+    background-color:$primary !important;
+    border:1px solid $primary;
+    color:$white !important;
+    
+}
+.btn{
+    &:focus{
+        box-shadow:none !important;
+       
+    }
+}
+// some common classes end
+
+// our story section start
+.story{
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        background-color:$bg;
+        width: 1200px;
+        top:0;
+        left:0;
+        height: 500px;
+        z-index: -1;
+    }
+   
+}
+// our story section end
+
+// environment section start
+.icon-list{
+    padding-top: 25px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: 50%;
+            padding-top: 10px !important;
+            i{
+                color:$primary;
+            }
+        }
+    }
+   
+}
+// environment section end
+
+// dreams section start
+.dreams{
+    background-image:url(../images/dreams.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    .dream-box{
+        background-color:rgba(245, 179, 21, 0.6);
+        padding: 50px;
+        h3{
+            color:$black;
+            font-size: 40px;
+            font-weight: 400;
+        }
+        h2{
+            color:$black;
+            font-size: 50px;
+            font-weight: 600;
+        }
+        p{
+            color:$black;
+            padding-top: 20px;
+        }
+        button{
+            background-color:$black !important;
+            color:$white !important;
+            margin-top: 25px;
+        }
+    }
+}
+// dreams section end
+
+// video section start
+.video{
+    h6{
+        &::after{
+            left:40%;
+        }
+    }
+}
+#exTab1{
+    ul{
+        text-align: center;
+        font-size: 20px;
+        .active{
+            background-color:black;
+            a{
+                color:white !important;
+            }
+        }
+        li{
+            border:1px solid #848282;
+            width: 25%;
+            padding: 15px !important;
+        }
+    }
+    .icon-list{
+        ul{
+            text-align: left;
+            li{
+                border:none !important;
+                width: 50%;
+                padding: 5px !important;
+            }
+        }
+    }
+}
+
+.video-bg{
+    background-image:url(../images/mission_3_1.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    .overlay{
+        background-color:rgba(0, 0, 0,0.6);
+        padding-bottom: 215px !important;
+        padding: 100px;
+        .round{
+            width: 80px;
+            height: 80px;
+            margin-left: 40%;
+            margin-top: 25%;
+            background-color:$black;
+            border-radius: 15px;
+            line-height: 85px;
+            text-align: center;
+            i{
+                color:$primary;
+                font-size: 30px;
+            }
+        }
+    }
+   
+}
+// video section end
+
+// testimonial start
+.testimonial{
+    background-image:url(../images/testimonial.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    .overlay{
+        padding-bottom: 30px;
+    }
+    h6{
+        font-size: $fs-24;
+        font-weight: 400;
+        padding-top: 25px;
+    }
+    .owl-nav{
+        display: none;
+    }
+    .testi-box{
+        border:1px solid #848282;
+        padding: 45px 25px;
+        margin:50px;
+        .testi-content{
+            margin-top: 30px;
+            display: flex;
+            .testi-icon{
+                background-color:$primary;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                text-align: center;
+                padding-top: 15px;
+                i{
+                    color:$white;
+                    font-size: 35px;
+                }
+            }
+            h5{
+                font-size: $fs-24;
+                color:$primary;
+            }
+            h4{
+                font-size: $fs-16;
+                color:#848282;
+            }
+        }
+    }
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f5b315 !important;
+    width: 60px;
+}
+// testimonial end
+
+// our blog start
+.card-body{
+    i{
+        color:$primary;
+    }
+    h5{
+        font-size: 14px;
+        padding-left: 15px;
+        margin-bottom: 0 !important;
+        color:#848282;
+    }
+    h6{
+        font-size: 24px;
+        padding-top: 10px;
+    }
+    h3{
+        font-size: 16px;
+        padding-right: 15px;
+        margin-bottom: 0 !important;
+    }
+}
+// our blog section end
+
+// reputable and quality section start
+.quality{
+    background-image:url(../images/reputable.jpg);
+   
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    p{
+        font-size: 20px;
+        padding: 25px 0;
+    }
+    button{
+        margin-top: 22px;
+        color:$white;
+    }
+}
+// reputable and quality section end
+
+
+// top arrow
+.top{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    background-color:$primary;
+    position: fixed;
+    right:0;
+    bottom:100px;
+    color:$white !important;
+}
+
+// footer start
+footer{
+    background-image:url(../images/footer-bg.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    .overlay{
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    h6{
+        color:$white;
+        font-size: $fs-24;
+        position: relative;
+        &::after{
+            position: absolute;
+            content:"";
+            background-color:$primary;
+            width: 60px;
+            height: 3px;
+            bottom:-10px;
+            left:0;
+        }
+    }
+    p{
+        color:$white;
+        padding: 25px 0;
+    }
+    ul{
+        padding-top: 25px !important;
+        li{
+            padding-bottom:10px !important ;
+            a{
+                color:$white !important;
+            }
+            
+        }
+    }
+    hr{
+        color:#ffffff;
+        margin:0 !important;
+    }
+}
+// home page scss end

@@ -1,0 +1,88 @@
+// service scss start
+
+
+
+// building renovation start
+.container-img{
+    position: relative;
+    .mySlides{
+        display: none;
+    }
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white !important;
+        font-weight: bold;
+        font-size: 40px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  .row:after {
+    content: "";
+    display: table !important;
+    clear: both !important;
+  }
+  .column {
+    float: left !important;
+    width: 16.66% !important;
+  }
+  
+ 
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+// building renovation end
+
+// service icon start
+.service-icon{
+    border:1px solid #848282;
+    padding: 35px;
+    text-align: center;
+    margin: 25px;
+    i{
+        color:$primary;
+        font-size: 40px;
+    }
+    h5{
+        font-size: 24px;
+        color:$black;
+        font-weight: 500    ;
+        padding: 15px 0;
+    }
+    h6{
+        color:$primary;
+        padding-top: 15px;
+    }
+}
+// service-icon end

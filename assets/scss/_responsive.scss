@@ -1,0 +1,237 @@
+// responsive scss start
+@media (max-width:575px) {
+    .navbar-toggler{
+        border:0 !important;
+        i{
+            color:$white !important;
+        }
+        span{
+            display: none;
+        }
+    }
+    .story{
+        &::after{
+            width: 375px;
+            height: 280px;
+        }
+    }
+    .main-heading{
+        font-size: 30px;
+        span{
+            font-size: 30px;
+        }
+    }
+    .sub-heading{
+        font-size: 20px;
+        padding-left: 44px;
+        &::after{
+            width: 40px;
+        }
+    }
+    .dreams{
+        .dream-box{
+            padding: 25px;
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+    .video{
+        h6{
+            &::after{
+                left:24%;
+            }
+        }
+    }
+    #exTab1{
+        ul{
+            li{
+                padding: 5px !important;
+            }
+        }
+    }
+    .video-bg{
+        .overlay{
+            padding-bottom: 100px !important;
+            .round{
+                margin-left: 44px;
+                margin-top: 0;
+            }
+        }
+    }
+    .testimonial{
+        .testi-box{
+            margin: 20px;
+        }
+    }
+    .owl-nav{
+        display: none;
+    }
+    .space{
+        padding-top: 15px;
+    }
+    .luxury{
+        .overlay-2{
+            padding: 30px 10px;
+        }
+       .text-end{
+        text-align: left !important;
+       }
+    }
+    .experience{
+        .white-overlay-img{
+            .white-overlay{
+                padding: 49px;
+            }
+        }
+    }
+    iframe{
+        width: 375px;
+    }
+}
+@media (width:425px) {
+    iframe{
+        width: 425px;
+    }
+    .story{
+        &::after{
+            width: 425px;
+            height: 320px;
+        }
+    }
+    .video-bg{
+        .overlay{
+            .round{
+                margin-left: 65px;
+            }
+        }
+    }
+}
+@media (min-width:576px) and (max-width:768px) {
+    .navbar-toggler{
+        border:0 !important;
+        i{
+            color:$white !important;
+        }
+        span{
+            display: none;
+        }
+    }
+    .story{
+        &::after{
+            width: 500px;
+            height: 400px;
+        }
+    }
+    .main-heading{
+        font-size: 30px;
+        span{
+            font-size: 30px;
+        }
+    }
+    .sub-heading{
+        font-size: 20px;
+        padding-left: 44px;
+        &::after{
+            width: 40px;
+        }
+    }
+    .dreams{
+        .dream-box{
+            padding: 35px;
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+    .video{
+        h6{
+            &::after{
+                left:36%;
+            }
+        }
+    }
+    .video-bg{
+        .overlay{
+            padding: 1px;
+            padding-bottom: 126px !important;
+        }
+        .round{
+            margin-top: 40% !important;
+        }
+    }
+    .owl-nav{
+        display: none;
+    }
+    .experience{
+        .white-overlay-img{
+            .white-overlay{
+                padding: 40px;
+            }
+        }
+    }
+    .service-icon{
+        padding: 11px;
+        margin: 0;
+    }
+    .space{
+        padding-top: 15px;
+    }
+    iframe{
+        width: 768px;
+    }
+}
+@media (width:1024px) {
+    .story{
+        &::after{
+            width: 700px;
+            height: 400px;
+        }
+    }
+    .dreams{
+        .dream-box{
+            padding: 35px;
+            h2{
+                font-size: 36px;
+            }
+        }
+    }
+    .video{
+        h6{
+            &::after{
+                left:36%
+            }
+        }
+    }
+    .video-bg{
+        .overlay{
+            padding-bottom: 186px;
+        }
+    }
+    .testimonial{
+        .testi-box{
+            margin: 25px;
+        }
+    }
+    .md-none{
+        display: none;
+    }
+    .experience{
+        .white-overlay-img{
+            .white-overlay{
+                padding:96px
+            }
+        }
+    }
+    .service-icon{
+        margin: 0;
+    }
+    iframe{
+        width: 1024px;
+    }
+}
+@media (width:1440px) {
+    iframe{
+        width: 1440px;
+    }
+}

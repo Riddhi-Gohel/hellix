@@ -1,0 +1,20 @@
+// contact scss file
+
+.contact{
+    input{
+        width: 100%;
+        border:0;
+        border-bottom: 1px solid #848282;
+        padding: 15px 0;
+        margin:15px;
+        margin-left: 0;
+    }
+    textarea{
+        width: 100%;
+        border:0;
+        border-bottom:1px solid #848282;
+        padding: 15px 0;
+        margin: 15px;
+        margin-left: 0 !important;
+    }
+}

@@ -1,0 +1,106 @@
+// about page scss start
+
+// main section start
+.about-bg{
+    background-image:url(../images/about-banner.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    h3{
+        font-size: $fs-40;
+        color:$white;
+        text-align: center;
+        padding-top: 50px;
+    }
+    p{
+        color:$white;
+        text-align: center;
+    }
+    
+}
+.about-box{
+    background:$white;
+    height: 75px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 30px;
+    margin-top: -30px;
+    i{
+        color:#848282;
+        font-size: 24px;
+        padding-top: 25px;
+    }
+    h5{
+        color:#848282;
+        padding-left: 40px;
+        margin-bottom: 0;
+        
+        i{
+            font-size: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+    .devider{
+        width: 1px;
+        height: 75px;
+        background-color:#848282;
+        margin-left: 25px;
+        
+    }
+}
+// luxury section start
+.luxury{
+    background-image:url(../images/luxury.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top: 200px ;
+    .overlay-2{
+        background-color:rgba(245, 179, 21, 0.6);
+        padding: 30px 0;
+    }
+}
+// luxury section end
+
+// call to experience section start
+.experience{
+    .white-overlay-img{
+        background-image:url(../images/experience.jpg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        padding: 1px 0;
+        .white-overlay{
+            background-color:rgba(255, 255, 255, 0.6);
+           
+            text-align: center;
+            padding: 160px;
+            margin: 45px;
+            p{
+                color:$black;
+            }
+            h1{
+                color:$primary;
+            }
+        }
+    }
+    ul{
+        i{
+            color:$primary;
+            margin-right: 15px;
+        }
+        li{
+            padding-bottom: 10px !important;
+        }
+    }
+}
+// call to experience section end
+
+
+.container-img{
+    position: relative;
+    .mySlides{
+        display: none;
+    }
+}

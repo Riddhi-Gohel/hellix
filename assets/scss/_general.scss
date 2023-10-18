@@ -1,0 +1,45 @@
+// general scss start
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    outline: none;
+}
+body{
+    background-color:$white;
+    font-size: $fs-16;
+    font-weight: 400;
+    font-family: $font-roboto;
+}
+p{
+    margin: 0 !important;
+    font-size: $fs-16;
+    font-family: $font-roboto;
+}
+a{
+    text-decoration: none !important;
+    transition: all 0.5s;
+    color:$black !important;
+}
+ul,li,ol{
+    padding: 0 !important;
+    margin: 0;
+    list-style: none;
+}
+.padding-top{
+    padding-top: 90px;
+}
+.padding-bottom{
+    padding-bottom: 90px;
+}
+.margin-top{
+    margin-top: 90px;
+}
+.margin-bottom{
+    margin-bottom: 90px;
+}
+
+// general scss end
